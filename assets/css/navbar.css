@@ -50,6 +50,11 @@ li{
         margin-right: 10px;
     }
 }
+@media screen and (width:360px)(height:768px){
+    header{
+       width: 100vw;
+    }
+}
 
 code{
     text-align: center;
