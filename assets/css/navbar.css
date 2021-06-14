@@ -52,7 +52,7 @@ li{
         margin-right: 1rem;
     }
 }
-@media screen and (width:360px)(height:768px){
+@media screen and (width:360px),(height:768px){
     header{
         width:140vw;
     }
