@@ -44,7 +44,7 @@ li{
 
 @media  screen and (max-width:360px){
     header{
-        width: 150vw;
+        width: 100vw;
     }
     .nav_elem>a{
         margin-right: 10px;
