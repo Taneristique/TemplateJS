@@ -1,0 +1,9 @@
+.async{
+    text-align: center;
+    grid-column: 3/4;
+}
+.async_p{
+    grid-row: 2/3;
+    font-size: 1.2em;
+
+}

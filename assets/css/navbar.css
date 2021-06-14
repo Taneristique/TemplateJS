@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0 auto;
+    padding: 0;    
+    background-color: rgb(236, 248, 219);
+    
+}
+header{
+    display: block;
+    background-color: black;
+    height: 10vh;
+    width: 100vw;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+ul{
+   display: flex;
+   justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+li{
+    list-style-type: none;
+
+}
+.nav_elem>a{
+   color: white;  
+   text-decoration: none;
+   margin-left: 1rem;
+   word-spacing: 1.5rem;
+   font-size: 1.2em;
+}
+.nav_elem>a:hover{
+    color: rgb(0, 255, 115);
+    font-size: 1.5em;
+}
+
+@media  screen and (max-width:320px){
+    header{
+        width: 150vw;
+    }
+    .nav_elem>a{
+        margin-right: 10px;
+    }
+}
+
+code{
+    text-align: center;
+    display: -ms-inline-grid;
+    display: -moz-inline-grid;
+    display: inline-grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    color: chartreuse;
+}
+.navbar_design{
+    background-color:rgb(41, 37, 37);
+    width: 100vh;
+    height: 50vh;
+    overflow: auto;
+    color: yellow;
+    grid-column-start: 2;
+
+
+}
+button.html{
+    border-radius: 0;
+    height: 5vh;
+    width: fit-content;
+
+}
+button.css{
+    grid-column: 2/3;
+    border-radius: 0;
+    height: 5vh;
+    width: fit-content;
+
+}
+button.js{
+    grid-column: 3/4;
+    border-radius: 0;
+    height: 5vh;
+    width: fit-content;
+
+}
+#nav_code{
+    color: yellow;
+
+}

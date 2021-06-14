@@ -1,0 +1,104 @@
+code{
+    text-align: center;
+    display: -ms-inline-grid;
+    display: -moz-inline-grid;
+    display: inline-grid;
+    grid-template-columns: repeat(3,20vw);
+    grid-template-rows: repeat(2,1fr);
+    color: chartreuse;
+}
+.navbar_design{
+    
+    background-color:rgb(41, 37, 37);
+    width: 60vw;
+    height: 70vh;
+    overflow: auto;
+    grid-column-start: 2;
+    margin:5rem 1.5rem 0;
+    padding: 0;
+    
+
+
+}
+button.html{
+    border-radius: 0;
+    height: 5vh;
+    width: 100%;
+    cursor: pointer;
+
+}
+button.css{
+    grid-column: 2/3;
+    border-radius: 0;
+    height: 5vh;
+    width: 100%;
+    cursor: pointer;
+}
+button.js{
+    grid-column: 3/4;
+    border-radius: 0;
+    height: 5vh;
+    width: 100%;
+    cursor: pointer;
+}
+#nav_code{
+    grid-column: 2/3;
+    width: 100%;
+}
+
+
+.footer_design{
+    
+    background-color:rgb(41, 37, 37);
+    width: 60vw;
+    height: 70vh;
+    overflow: auto;
+    grid-column-start: 2;
+    margin:4rem 1.5rem 0;
+    padding: 0;
+    
+    text-align: center;
+    display: -ms-inline-grid;
+    display: -moz-inline-grid;
+    display: inline-grid;
+    grid-template-columns: repeat(3,20vw);
+    grid-template-rows: repeat(2,1fr);
+    color: chartreuse;
+
+}
+
+button.html_one{
+    border-radius: 0;
+    height: 5vh;
+    width: 100%;
+    cursor: pointer;
+
+}
+button.css_one{
+    grid-column: 2/3;
+    border-radius: 0;
+    height: 5vh;
+    width: 100%;
+    cursor: pointer;
+}
+button.js_one{
+    grid-column: 3/4;
+    border-radius: 0;
+    height: 5vh;
+    width: 100%;
+    cursor: pointer;
+}
+
+#footer_code{
+        grid-column: 2/3;
+        width: 100%;
+        white-space: pre-line;
+}
+
+.content{
+    background-color: rgb(92, 238, 104);
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(2,1fr);
+}

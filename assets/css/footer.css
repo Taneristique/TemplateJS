@@ -1,0 +1,70 @@
+footer{
+    height: 5vh;
+    background-color: rgb(121, 100, 110);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: max-content;
+    width: 100vw;
+}
+.copyright{
+    color: rgb(227, 250, 200);
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.toggle:before { /*Before activating span object with toogle class*/
+    content: '☀️'; /*This content will show when website is in day mode*/
+}
+.toggle.active:before{
+    content: '🌑';
+}
+.toggle.animate {
+    animation: animate .3s cubic-bezier(0.4, 0.0, 0.2, 1);/*A Cubic Bezier curve is defined by four points P0, P1, P2, and P3. 
+    P0 and P3 are the start and the end of the curve and, in CSS these points are fixed as the coordinates are ratios. P0 is (0, 0) 
+    and represents the initial time and the initial state, P3 is 
+    (1, 1) and represents the final time and the final state.Animation name is animate and duration 3seconds*/
+}
+
+
+@keyframes animate {  /*Scalings in moments of animation.*/
+    0%   { transform: scale(1); }
+    50%  { transform: scale(0); }
+    100% { transform: scale(1); }}
+
+@media screen and (width:280px),(height:653px) {/*Galaxy Fold*/
+    footer{
+        width: 150vw;
+    }
+    .content{
+        width: 85%;
+    }
+}
+@media screen and (width:240px),(height:320px){ /*jiophone 2*/
+    header{
+        width: 160vw;
+    }
+    footer{
+        width: 160vw;
+    }    
+    .content{
+        width: 90%;
+        place-items: center;
+    }
+    .container{    margin-left: 30vw;
+    }
+}
+@media  screen and (width:320px), (height:533px){
+
+    .content{
+        margin-left:5rem;
+    }
+    .container{
+        width: 120vw;
+
+    }
+    footer{
+        width: 150vw;
+    }
+}
