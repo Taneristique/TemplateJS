@@ -5,8 +5,6 @@ body{
     margin: 0 auto;
     padding: 0;    
     background-color: rgb(236, 248, 219);
-    overflow:hidden;
-    
 }
 header{
     display: block;
@@ -44,11 +42,17 @@ li{
 }
 
 @media  screen and (max-width:360px){
+    header{
+        width:125vw;
+    }
     .nav_elem>a{
         margin-right: 1rem;
     }
 }
 @media screen and (width:360px)(height:768px){
+    header{
+        width:125vw;
+    }
     .nav_elem>a{
         margin-right: 1rem;
     }
