@@ -7,7 +7,7 @@ fun template.If we speak about other part,you will find a lot of suprises I hope
 ## Technologies
 ```diff
 +Project is created with:
-+* PHP version: 5.6.40
++* HTML version: 5
 +* Vanilla JS version: ECMAScript 2018
 +* CSS version: 3
 
