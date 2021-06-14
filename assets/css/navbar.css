@@ -45,12 +45,18 @@ li{
     header{
         width:125vw;
     }
+    footer{
+        width:125vw;
+    }
     .nav_elem>a{
         margin-right: 1rem;
     }
 }
 @media screen and (width:360px)(height:768px){
     header{
+        width:125vw;
+    }
+     footer{
         width:125vw;
     }
     .nav_elem>a{
