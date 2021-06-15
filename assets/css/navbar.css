@@ -70,36 +70,3 @@ li{
     }
 }
 
-code{
-    text-align: center;
-    display: -ms-inline-grid;
-    display: -moz-inline-grid;
-    display: inline-grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(2,1fr);
-    color: chartreuse;
-}
-button.html{
-    border-radius: 0;
-    height: 5vh;
-    width: fit-content;
-
-}
-button.css{
-    grid-column: 2/3;
-    border-radius: 0;
-    height: 5vh;
-    width: fit-content;
-
-}
-button.js{
-    grid-column: 3/4;
-    border-radius: 0;
-    height: 5vh;
-    width: fit-content;
-
-}
-#nav_code{
-    color: yellow;
-
-}
