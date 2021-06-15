@@ -1,4 +1,4 @@
-#General Information
+## General Information
 This is an experimental template which is done in  order to better understand the principles of classical programming.I am glad of this template because finally I solved how can I add a language translation or background themes in proper way.Actually in taneristique swap template there was a bug on background theme('It was so hard passing from black theme to white theme 
 with correct toggle symbol').In this work I learnt the reason causes this bug.That bug happened because I assigned a variable to the value of localStorage and whenever i reopened the page 
 my variables value changed to setted value,and this manipulated my localStorage's value in wrong way and this case caused the bug on theme changing.In this template I did not assign 
