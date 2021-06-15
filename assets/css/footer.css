@@ -68,3 +68,9 @@ footer{
         width: 150vw;
     }
 }
+
+@media screen and (width:360px),(height:768px){
+     footer{
+        width:140vw;
+    }
+}

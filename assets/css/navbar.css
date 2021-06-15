@@ -5,7 +5,6 @@ body{
     margin: 0 auto;
     padding: 0;    
     background-color: rgb(236, 248, 219);
-    
 }
 header{
     display: block;
@@ -42,12 +41,32 @@ li{
     font-size: 1.5em;
 }
 
-@media  screen and (max-width:320px){
-    header{
-        width: 150vw;
+
+@media only screen and (max-width: 320px) {
+  header{
+        width:150vw;
+    }
+    footer{
+        width:150vw;
+    }
+    .content{
+        margin-left:-2rem;
     }
     .nav_elem>a{
-        margin-right: 10px;
+        margin-right: 1rem;
+    }
+}
+
+
+@media only screen and (width:360px),(height:768px){
+    header{
+        width:140vw;
+    }
+    .nav_elem>a{
+        margin-right: 1rem;
+    }
+    footer{
+        width:140vw;
     }
 }
 
@@ -59,16 +78,6 @@ code{
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(2,1fr);
     color: chartreuse;
-}
-.navbar_design{
-    background-color:rgb(41, 37, 37);
-    width: 100vh;
-    height: 50vh;
-    overflow: auto;
-    color: yellow;
-    grid-column-start: 2;
-
-
 }
 button.html{
     border-radius: 0;
