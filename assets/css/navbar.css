@@ -41,8 +41,9 @@ li{
     font-size: 1.5em;
 }
 
-@media  screen and (max-width:320px){
-    header{
+
+@media only screen and (max-width: 320px) {
+  header{
         width:150vw;
     }
     footer{
@@ -55,11 +56,10 @@ li{
         margin-right: 1rem;
     }
 }
-@media screen and (width:360px),(height:768px){
+
+
+@media only screen and (width:360px),(height:768px){
     header{
-        width:140vw;
-    }
-     footer{
         width:140vw;
     }
     .nav_elem>a{
