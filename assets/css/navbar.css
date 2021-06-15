@@ -41,12 +41,15 @@ li{
     font-size: 1.5em;
 }
 
-@media  screen and (max-width:360px){
+@media  screen and (max-width:320px){
     header{
-        width:140vw;
+        width:150vw;
     }
     footer{
-        width:140vw;
+        width:150vw;
+    }
+    .content{
+        margin-left:-2rem;
     }
     .nav_elem>a{
         margin-right: 1rem;
@@ -72,16 +75,6 @@ code{
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(2,1fr);
     color: chartreuse;
-}
-.navbar_design{
-    background-color:rgb(41, 37, 37);
-    width: 100vh;
-    height: 50vh;
-    overflow: auto;
-    color: yellow;
-    grid-column-start: 2;
-
-
 }
 button.html{
     border-radius: 0;
