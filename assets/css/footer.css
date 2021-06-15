@@ -44,6 +44,7 @@ footer{
 @media screen and (width:240px),(height:320px){ /*jiophone 2*/
     header{
         width: 160vw;
+        padding-right:10vw;
     }
     footer{
         width: 160vw;
