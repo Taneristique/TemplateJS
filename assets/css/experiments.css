@@ -1,0 +1,22 @@
+.async{
+    text-align: center;
+    grid-column: 3/4;
+}
+.async_p{
+    grid-row: 2/3;
+    font-size: 1.2em;
+}
+.kutu{
+    color: chartreuse;
+    background-color: black;
+    padding: 10px;
+}
+#pr1{
+    margin-top: 1vh;
+}
+.code{width: 100%;}
+@media screen and (max-width:519px){
+    .content{
+        overflow: auto;
+    }
+}
