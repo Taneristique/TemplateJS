@@ -65,6 +65,9 @@ li{
     .nav_elem>a{
         margin-right: 1rem;
     }
+    footer{
+        width:140vw;
+    }
 }
 
 code{
