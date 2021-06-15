@@ -58,7 +58,8 @@ footer{
 @media  screen and (width:320px), (height:533px){
 
     .content{
-        margin-left:5rem;
+        margin-right:8em;
+        padding:60vw
     }
     .container{
         width: 120vw;
