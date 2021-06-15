@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taneristique Template</title>
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/navbar.css"> 
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/experiments.css">
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="nav_elem" id='ne-1'><a href="index.html">Home</a></li>
+                <li class="nav_elem" id='ne-2'><a href="about.html">About</a></li>
+                <li class="nav_elem" id='ne-3'><a href="code.html">Codes</a></li>
+                <li class="nav_elem" id='ne-4'><a href="experiment.html">Experiments</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+    <div class="content">
+        <div class="async">
+            <h1>Let's start our experiments as learning asynchron part of js language!</h1>
+            <div class="async_p">
+                <p>In these experiment we will learn what is asynchron functions,how to use them and why do we need to use them with funny exercises.Actually we do all the stuff with funny 
+                   buttons and everything will be explained as putting codes above these exercises button.So let's start I hope you will like it dear visitor!🙂</p>
+                   <h2>Our First experiment</h2>
+                    <div class="code">
+                        <div class="kutu"><code>
+                            const ex_button=document.querySelector('#pr1')
+                            let log = document.getElementById('log')
+                            function promise(){
+                                let x=parseInt(prompt('Can you write the answer of 2**7 in number format?'))
+                                let p1=new Promise((resolve,reject)=>{
+                                    setTimeout(()=>{if(x==128)resolve("well done correct answer!")
+                                                    reject('Wrong answer!!!')},1000)
+                                })
+                                p1.catch((reason)=>{log.innerHTML=reason})
+                                p1.then((value)=>{log.innerHTML=value})
+                            }
+                            ex_button.addEventListener('click',promise)
+
+                        </code> </div>
+                        <button id="pr1">MAKE A PROMISE</button><br><br><br>
+                        <div id="log"></div>
+                    </div>
+            </div>
+
+            </div>
+    </div>
+    </div>
+    <footer>
+        <div class="copyright">All Rights Reserved by Taneristique&#169;</div>
+        <span class="toggle"></span>
+    </footer>
+    <script src="assets/js/lamp.js">
+    
+    </script>
+    <script src="assets/js/experiment.js"></script>
+</body>
+</html>
