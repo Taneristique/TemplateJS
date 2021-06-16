@@ -56,7 +56,6 @@ img{
 
 @media only screen and(width:320px),(height:568px) {
     .content{
-        margin-left: 7.5rem;
         width: 85%;
     }
 }
