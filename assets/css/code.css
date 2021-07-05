@@ -14,7 +14,7 @@ code{
     height: 70vh;
     overflow: auto;
     grid-column-start: 2;
-    margin:5rem 1.5rem 0;
+    margin:5rem  0;
     padding: 0;
     
 
@@ -54,7 +54,7 @@ button.js{
     height: 70vh;
     overflow: auto;
     grid-column-start: 2;
-    margin:4rem 1.5rem 0;
+    margin:4rem 0;
     padding: 0;
     
     text-align: center;
@@ -99,6 +99,5 @@ button.js_one{
     background-color: rgb(92, 238, 104);
     width: 75%;
     display: grid;
-    grid-template-columns: repeat(5,1fr);
-    grid-template-rows: repeat(2,1fr);
+    place-content: center;
 }
