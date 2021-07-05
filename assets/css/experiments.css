@@ -9,7 +9,7 @@
 .kutu{
     color: chartreuse;
     background-color: black;
-    padding: 10px;
+    width: fit-content;
 }
 #pr1{
     margin-top: 1vh;

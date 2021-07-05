@@ -35,43 +35,96 @@ footer{
 
 @media screen and (width:280px),(height:653px) {/*Galaxy Fold*/
     footer{
-        width: 150vw;
+        width: 100vw;
     }
     .content{
-        width: 85%;
+        width: 100vw;
     }
 }
-@media screen and (width:240px),(height:320px){ /*jiophone 2*/
+@media  screen and (width:240px),(height:320px){ /*jiophone 2*/
     header{
-        width: 160vw;
-        padding-right:10vw;
+        width: 100vw;
+
     }
     footer{
-        width: 160vw;
+        width: 100vw;
     }    
-    .content{
-        width: 90%;
+    .nav_elem>a{
+        font-size: 0.8em;
+        margin-left: 0.5rem;
+
+    }
+    .container{
+        width: 25%;
+        display: grid;
+        grid-template-columns: repeat(5,20vw);
+        margin-left: 5.5rem;
         place-items: center;
     }
-    .container{    margin-left: 30vw;
+    .content{
+        grid-column: 1/6;
+        grid-template-columns: repeat(5,20vw);
+    }
+    nav ul{
+        justify-content: center;
+    }
+    .autor-image{
+        margin-top: 3.5rem;
+        grid-column: 2/4;
+    }
+    .autorname{
+        grid-column-start: 1;
+        margin-left: 5px;
+        font-size: 2em;
+        text-align: center;
+
+    }
+    .excitement{
+        grid-column-start: 1;
+        margin-left: 5px;
     }
 }
 @media  screen and (width:320px), (height:533px){
 
     .content{
-        margin-right:4em;
+        grid-column: 3/6;
+        grid-template-columns: repeat(5,20vw);    
     }
     .container{
-        width: 120vw;
-
+            width: 100vw;
+          
+    
     }
     footer{
-        width: 150vw;
+        width: 100vw;
     }
+    .nav_elem>a{
+        font-size: 1em;
+        margin-left: 0.5rem;
+
+    }
+    .autor-image{
+        margin-top: 3.5rem;
+        grid-column: 2/4;
+        position: relative;
+        right: 25px;
+    }
+    .autorname{
+        grid-column-start: 1;
+        margin-left: 25px;
+        font-size: 2em;
+        text-align: center;
+
+    }
+    .excitement{
+        grid-column-start: 1;
+        position: relative;
+        left: 10px;
 }
 
 @media screen and (width:360px),(height:768px){
      footer{
-        width:140vw;
+        width:100vw;
     }
+}
 }

@@ -19,7 +19,7 @@
     height: 30vh;
     clip-path: ellipse();
     grid-column-start: 2;
-    margin-top: 1rem;
+    margin-top: 4rem;
     grid-column: 3/4;
     margin-left: 0.5rem;
     grid-column: 3/4;
@@ -59,13 +59,10 @@ img{
         width: 85%;
     }
 }
-@media  screen and (max-width:360px){
+/*@media  screen and (max-width:360px){
    .container{
        margin-left:5rem;
     }
 }
-@media screen and (width:360px)(height:768px){
-  .container{
-       margin-left:5rem;
-    }
-}
+
+*/
