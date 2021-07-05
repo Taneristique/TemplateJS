@@ -1,6 +1,7 @@
 .async{
     text-align: center;
     grid-column: 3/4;
+    margin-top: 5rem;
 }
 .async_p{
     grid-row: 2/3;
